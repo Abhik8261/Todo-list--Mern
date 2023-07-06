@@ -30,3 +30,40 @@ input{
 article{
     display: grid;
 }
+.edit-todo{
+    width: 85%;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid  #ffffff;
+}
+
+.button{
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: #6c6777;
+    background-color: #ffffff;
+    border:none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.button.selected{
+    color: #ffffff;
+    background-color: #6c6777;
+}
+.button.clear{
+    float: right;
+    color: #ffffff;
+    background-color: #ee1630;
+    width: 160px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #34495e;
+    font-size: 20px;
+}

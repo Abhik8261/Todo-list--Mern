@@ -1,0 +1,29 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Todo list project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhik8261/Todo-list--Mern.git"
+  },
+  "author": "Abhinav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhik8261/Todo-list--Mern/issues"
+  },
+  "homepage": "https://github.com/Abhik8261/Todo-list--Mern#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}

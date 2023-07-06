@@ -11,3 +11,22 @@ input{
     border-bottom: 2px solid  #2c3e50;
     padding: 5px;
 }
+.task{
+    background-color: #34495e;
+    padding: 15px;
+    margin: 5px;
+    overflow-x: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.task span{
+    color: #ffffff;
+}
+.icon{
+    float: right;
+    margin-right:20px ;
+
+}
+article{
+    display: grid;
+}

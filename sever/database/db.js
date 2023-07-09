@@ -6,8 +6,8 @@ dotenv.config();
 
  const Connection=()=>{
 
-const MONGODB_URL=process.env.MONGODB_ 
-    mongoose.connect(MONGODB_URL);
+
+    mongoose.connect(process.env.MONGODB_ );
 
     mongoose.connection.on('connected',()=>{
         console.log('DAtabase connected Successfully');
@@ -20,4 +20,4 @@ const MONGODB_URL=process.env.MONGODB_
         console.log('Error while connecting',error.message);
     })
 }
-export default Connection
+export default Connection  

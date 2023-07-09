@@ -6,8 +6,8 @@ dotenv.config();
 
  const Connection=()=>{
 
-
-    mongoose.connect(process.env.MONGODB_ );
+    mongoose.Promise = global.Promise;
+    mongoose.connect(process.env.MONGODB_URI );
 
     mongoose.connection.on('connected',()=>{
         console.log('DAtabase connected Successfully');
